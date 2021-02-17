@@ -9,7 +9,7 @@ import {
 import { Button, Block, Input, Text } from "../components";
 import { theme } from "../constants";
 
-const VALID_EMAIL = "contact@react-ui-kit.com";
+const VALID_EMAIL = "zhenghaotian2333@gmail.com";
 const VALID_PASSWORD = "subscribe";
 
 export default class Login extends Component {
