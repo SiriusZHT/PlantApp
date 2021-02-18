@@ -293,8 +293,12 @@ const blockStyles = [
       style // rewrite predefined styles
     ];
 ```
+
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210218154046159.png)
 因为index不能为any，所以需要进行泛型约束index的类型。
+
+
 ```javascript
 interface IProps{
   [key: string]: any;

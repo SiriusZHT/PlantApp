@@ -9,10 +9,18 @@
 
 ## 目录介绍
 ### . /
+- DOCS：项目有关说明文档和知识要点记录
 - appJS：`expo init appJS` blank的JS初始项目
 - appTS：` expo init appTS `blank(TypeScript) 的TS初始项目
 - PlantAppJS：Plant APP的JavaScript项目
 - PlantAppTS：Plant APP的TypeScript项目
+
+### DOCS
+[Typescript在ReactNative中的具体应用](https://github.com/SiriusZHT/PlantApp/blob/main/%20DOCS/Typescript%E5%9C%A8ReactNative%E4%B8%AD%E7%9A%84%E5%85%B7%E4%BD%93%E5%BA%94%E7%94%A8.md)
+
+[ReactNative知识点](https://github.com/SiriusZHT/PlantApp/blob/main/%20DOCS/ReactNative%E7%9F%A5%E8%AF%86%E7%82%B9.md)
+
+[Typescript代码整洁之道](https://github.com/SiriusZHT/PlantApp/blob/main/%20DOCS/Typescript%E4%BB%A3%E7%A0%81%E6%95%B4%E6%B4%81%E4%B9%8B%E9%81%93.md)
 
 ### PlantAppJS 	||  PlantAppTS
 - assets resources of splash icons images

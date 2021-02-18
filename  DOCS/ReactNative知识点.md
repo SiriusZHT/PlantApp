@@ -1,7 +1,3 @@
-# react-native-interview
-介绍react-native面试中可能会问到的知识点。本文会不定时更新，不断完善，希望大家都能更加了解react-native。
-
-
 ## 1.React Native相对于原生的ios和Android有哪些优势？
 1.性能媲美原生APP
 2.使用JavaScript编码，只要学习这一种语言
