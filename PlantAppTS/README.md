@@ -1,10 +1,11 @@
 # Plant🌳APP
 ## 该项目是基于React Native(expo)+JS / TS的植物售卖展示APP
 
-- 项目UI画板地址：
+- 🌿项目UI画板地址：
 	- 链接: https://pan.baidu.com/s/1AB_200sfedRCNgZFjqk-QA  密码: hvwc
+	- 获取更多UI请访问网站:https://dribbble.com
 
-
+- ❓展示图片加载不出来请刷新或[点击](https://img-blog.csdnimg.cn/20210217163125589.png)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210217163125589.png)
 
 ## 目录介绍
@@ -57,4 +58,5 @@ yarn run ios
 ```
 
 🕷前提是您提前安装了expo-cli工具 `npm install --global expo-cli`
+
 ⚠️本项目由于React Native兼容性原因暂不支持Android；web端可能会有兼容问题。
