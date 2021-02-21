@@ -1,38 +1,30 @@
 # Plant🌳APP
 ## 该项目是基于React Native(expo)+JS / TS的植物售卖展示APP
 
-- 项目UI画板地址：
+- 🌿项目UI画板地址：
 	- 链接: https://pan.baidu.com/s/1AB_200sfedRCNgZFjqk-QA  密码: hvwc
+	- 获取更多UI请访问网站: https://dribbble.com
 
-
+- ❓展示图片加载不出来请刷新或 [点击](https://img-blog.csdnimg.cn/20210217163125589.png)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210217163125589.png)
 
 ## 目录介绍
 ### . /
-- DOCS：项目有关说明文档和知识要点记录
 - appJS：`expo init appJS` blank的JS初始项目
 - appTS：` expo init appTS `blank(TypeScript) 的TS初始项目
 - PlantAppJS：Plant APP的JavaScript项目
 - PlantAppTS：Plant APP的TypeScript项目
 
-### DOCS
-[Typescript在ReactNative中的具体应用](https://github.com/SiriusZHT/PlantApp/blob/main/%20DOCS/Typescript%E5%9C%A8ReactNative%E4%B8%AD%E7%9A%84%E5%85%B7%E4%BD%93%E5%BA%94%E7%94%A8.md)
-
-[ReactNative知识点](https://github.com/SiriusZHT/PlantApp/blob/main/%20DOCS/ReactNative%E7%9F%A5%E8%AF%86%E7%82%B9.md)
-
-[Typescript代码整洁之道](https://github.com/SiriusZHT/PlantApp/blob/main/%20DOCS/Typescript%E4%BB%A3%E7%A0%81%E6%95%B4%E6%B4%81%E4%B9%8B%E9%81%93.md)
-
 ### PlantAppJS 	||  PlantAppTS
 - assets resources of splash icons images
-- components 工具组件主题样式预定义封装
+- components 工具组件主题样式预定义封装 🔧 [README](https://github.com/SiriusZHT/PlantApp/tree/main/PlantAppTS/components)
 	- Badge 图标样式（用于Browse页面的图标）
 	- Block 样式预定义（用于优化RN的原生组件样式）
 	- Button 按钮样式
-	- Card Block的预定义（用于Browse页面的图标卡片）
+	- Card 卡片块，Block的预定义（用于Browse页面的图标卡片）
 	- Divider 隔板样式
 	- Input 输入框样式
-	- Progress 渐变样式
-	- Search 搜索框样式
+	- Switch 开关组件
 	- Text 文字样式
 - constants 数据常量包裹层
 	- mocks 模拟mocks的api数据引入（手动编造数据）
@@ -64,5 +56,6 @@ cd PlantAppJS && yarn
 yarn run ios
 ```
 
-🕷前提是您提前安装了expo-cli工具 `npm install --global expo-cli`
-⚠️本项目由于React Native兼容性原因暂不支持Android；web端可能会有兼容问题。
+- 🕷前提是您提前安装了expo-cli工具 `npm install --global expo-cli`
+
+- ⚠️本项目由于React Native兼容性原因暂不支持Android；web端可能会有兼容问题。

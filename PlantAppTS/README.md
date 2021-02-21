@@ -17,15 +17,14 @@
 
 ### PlantAppJS 	||  PlantAppTS
 - assets resources of splash icons images
-- components 工具组件主题样式预定义封装
+- components 工具组件主题样式预定义封装 🔧 [README](https://github.com/SiriusZHT/PlantApp/tree/main/PlantAppTS/components)
 	- Badge 图标样式（用于Browse页面的图标）
 	- Block 样式预定义（用于优化RN的原生组件样式）
 	- Button 按钮样式
-	- Card Block的预定义（用于Browse页面的图标卡片）
+	- Card 卡片块，Block的预定义（用于Browse页面的图标卡片）
 	- Divider 隔板样式
 	- Input 输入框样式
-	- Progress 渐变样式
-	- Search 搜索框样式
+	- Switch 开关组件
 	- Text 文字样式
 - constants 数据常量包裹层
 	- mocks 模拟mocks的api数据引入（手动编造数据）
@@ -49,7 +48,7 @@ git clone https://github.com.cnpmjs.org/SiriusZHT/PlantApp.git
 ```
 - install dependencies
 ```shell
-cd PlantAppJS && yarn 
+cd PlantAppTS && yarn 
 ```
 - run
 
@@ -57,6 +56,6 @@ cd PlantAppJS && yarn
 yarn run ios
 ```
 
-🕷前提是您提前安装了expo-cli工具 `npm install --global expo-cli`
+- 🕷前提是您提前安装了expo-cli工具 `npm install --global expo-cli`
 
-⚠️本项目由于React Native兼容性原因暂不支持Android；web端可能会有兼容问题。
+- ⚠️本项目由于React Native兼容性原因暂不支持Android；web端可能会有兼容问题。
