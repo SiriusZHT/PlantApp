@@ -18,6 +18,15 @@
 - PlantAppJS：Plant APP的JavaScript项目
 - PlantAppTS：Plant APP的TypeScript项目
 
+### DOCS
+[ReactNative小知识](https://github.com/SiriusZHT/PlantApp/blob/main/%20DOCS/ReactNative%E7%9F%A5%E8%AF%86%E7%82%B9.md)
+
+[Typescript代码整洁之道](https://github.com/SiriusZHT/PlantApp/blob/main/%20DOCS/Typescript%E4%BB%A3%E7%A0%81%E6%95%B4%E6%B4%81%E4%B9%8B%E9%81%93.md)
+
+[Typescript在ReactNative中的具体应用](https://github.com/SiriusZHT/PlantApp/blob/main/%20DOCS/Typescript%E5%9C%A8ReactNative%E4%B8%AD%E7%9A%84%E5%85%B7%E4%BD%93%E5%BA%94%E7%94%A8.md)
+
+[🔧Components README](https://github.com/SiriusZHT/PlantApp/tree/main/PlantAppTS/components)
+
 ### PlantAppJS 	||  PlantAppTS
 - assets resources of splash icons images
 - components 工具组件主题样式预定义封装 🔧 [README](https://github.com/SiriusZHT/PlantApp/tree/main/PlantAppTS/components)
