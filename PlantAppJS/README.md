@@ -27,6 +27,10 @@
 
 [🔧Components README](https://github.com/SiriusZHT/PlantApp/tree/main/PlantAppTS/components)
 
+[【好文搬运尚未使用】Redux for react native 指南](https://juejin.cn/post/6844903684560666637#heading-21)
+
+[【好文搬运尚未使用】react/react-native性能优化](https://juejin.cn/post/6844903737262080014)
+
 ### PlantAppJS 	||  PlantAppTS
 - assets resources of splash icons images
 - components 工具组件主题样式预定义封装 🔧 [README](https://github.com/SiriusZHT/PlantApp/tree/main/PlantAppTS/components)
@@ -60,7 +64,7 @@ git clone https://github.com.cnpmjs.org/SiriusZHT/PlantApp.git
 ```
 - install dependencies
 ```shell
-cd PlantAppJS && yarn 
+cd PlantAppTS && yarn 
 ```
 - run
 
