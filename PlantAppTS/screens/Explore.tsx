@@ -148,6 +148,7 @@ export default Explore;
 
 const styles = StyleSheet.create({
   header: {
+    paddingTop: theme.sizes.base,
     paddingHorizontal: theme.sizes.base * 2,
     paddingBottom: theme.sizes.base * 2
   },

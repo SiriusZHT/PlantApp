@@ -25,18 +25,23 @@ const screens = createStackNavigator(
     Settings
   },
   {
+    // !if there are cause errors in ios navigation bar so delete them
+    // that may due to react-navigation version
     defaultNavigationOptions: {
+      title: " ",
       headerStyle: {
         height: theme.sizes.base * 4,
-        backgroundColor: theme.colors.white, // or 'white
-        borderBottomColor: "transparent",
+        backgroundColor: theme.colors.white1,
+        borderColor: theme.colors.white1,
+        borderBottomColor: theme.colors.white1,
         elevation: 0 // for android
       },
-      // headerBackImage: <Image source={require("../assets/icons/back.png")} />,
-      headerBackTitle: undefined,
+      headerBackImage: () => <Image source={require("../assets/icons/back.png")} />,
+      headerBackTitle: " ",
       headerLeftContainerStyle: {
         alignItems: "center",
         marginLeft: theme.sizes.base * 2,
+        marginBottom: theme.sizes.base / 2,
         paddingRight: theme.sizes.base
       },
       headerRightContainerStyle: {

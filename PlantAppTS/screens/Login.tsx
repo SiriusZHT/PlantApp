@@ -61,13 +61,14 @@ export default class Login extends Component<IProps, IState> {
 
     return (
       <KeyboardAvoidingView style={styles.login} behavior="padding">
-        <Block padding={[0, theme.sizes.base * 2]}>
+        <Block padding={[theme.sizes.base, theme.sizes.base * 2]}>
           <Text h1 bold>
             Login
           </Text>
           <Block middle>
             <Input
               label="Email"
+              rightLabel={<Text h3 bold>🍄</Text>}
               error={hasErrors("email")}
               style={[styles.input, hasErrors("email")]}
               defaultValue={this.state.email}

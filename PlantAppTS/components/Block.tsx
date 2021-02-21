@@ -127,7 +127,7 @@ export default class Block extends Component<IProps,IState> {
       ...props
     } = this.props;
 
-    //"&&" if(options){datas}
+    // "&&" if(options){datas}
     const blockStyles = [
       styles.block,
       flex && { flex },

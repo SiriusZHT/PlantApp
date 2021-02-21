@@ -5,8 +5,9 @@ const colors = {
   tertiary: "#FFE358",
   black: "#323643",
   white: "#FFFFFF",
+  white1: "#F2F2F2",
   gray: "#9DA3B4",
-  gray2: "#C5CCD6"
+  gray2: "#C5CCD6",
 };
 
 const sizes = {

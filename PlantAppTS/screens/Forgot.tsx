@@ -77,7 +77,7 @@ export default class Forgot extends Component<IProps, IState> {
 
     return (
       <KeyboardAvoidingView style={styles.forgot} behavior="padding">
-        <Block padding={[0, theme.sizes.base * 2]}>
+        <Block padding={[theme.sizes.base, theme.sizes.base * 2]}>
           <Text h1 bold>
             Forgot
           </Text>

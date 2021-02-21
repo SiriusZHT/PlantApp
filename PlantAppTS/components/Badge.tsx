@@ -12,14 +12,15 @@ export default class Badge extends Component<IProps> {
   render() {
     const { children, style, size, color, ...props } = this.props;
 
+    // Flattens an array of style objects, into one aggregated style object
     const badgeStyles = StyleSheet.flatten([
       styles.badge,
       size && {
         height: size,
         width: size,
         borderRadius: size
-      },
-      style
+      },// rewrite predefined size 
+      style// rewrite predefine styles
     ]);
 
     return (
@@ -44,3 +45,7 @@ const styles:IProps = StyleSheet.create({
     borderRadius: theme.sizes.radius
   }
 });
+
+
+
+
